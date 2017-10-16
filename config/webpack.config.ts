@@ -32,8 +32,8 @@ export default function(options: BuildOptions, webpackOptions: any) {
     },
     output: {
       path: root('build'),
-      filename: '[name].bundle.js',
-      chunkFilename: '[id].chunk.js'
+      filename: 'js/[name].bundle.js',
+      chunkFilename: 'js/[id].chunk.js'
     },
     module: {
       rules: [
